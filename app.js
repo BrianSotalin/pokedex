@@ -97,21 +97,10 @@ const renderNotFound = () => {
 }
 const changeColor = types =>{
     const colorOne = typeColors[types[0].type.name];
+  
     pokeName.style.color=`${colorOne}`
+
    
-        // stats.forEach(stat => {
-        //     console.log(stat)
-        //     const statElement = document.createElement("div");
-        //     const statElementName = document.createElement("div");
-        //     const statElementAmount = document.createElement("div");
-        //     statElementName.textContent = stat.stat.name;
-          
-        //     statElementAmount.textContent = stat.base_stat;
-        //     console.log(stat.stat.name)
-        //     statElement.appendChild(statElementName);
-        //     statElement.appendChild(statElementAmount);
-        //     pokeStats.appendChild(statElement);
-        // });
     
     
 }

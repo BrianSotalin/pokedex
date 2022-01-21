@@ -12,11 +12,11 @@ h3{
     text-transform: uppercase;
     font-family: 'Finger Paint', cursive;
     font-size: 45px;
-    margin-top: 5px;
+    margin-top: 3px;
     color: whitesmoke;
 }
 form{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 input{
     width: 45%;
@@ -24,6 +24,7 @@ input{
     font-size: 18px;
     border-radius: 10px;
     border: 1px dashed gray;
+    padding: 3px;
 }
 form .buscar{
     height: 40px;
@@ -70,21 +71,29 @@ form .buscar:hover{
     font-size: 20px;
     color: rgb(51, 50, 50);
 }
+.poke-stats {
+    margin-top: 10px;
+}
+.poke-stats div{
+    margin-top: 2px;
+}
 
 .poke-img{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     margin: 10px;
     border-radius: 50%;
     border: 2px dashed whitesmoke;
+    
 }
 .btn-reload{
+    margin-top: 5px;
     background: crimson;
     justify-content: center;
     font-size: 15px;
     font-weight: bolder;
     color: rgb(51, 50, 50);
-    padding: 10px;
+    padding: 5px 20px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -113,5 +122,16 @@ form .buscar:hover{
     }
     .buscar{
         margin-top: 5px;
+    }
+    .poke-types div{
+        font-size: 15px;
+    }
+    .poke-stats div{
+        font-size: 12px;
+    
+    }
+    .poke-img{
+        width: 100px;
+        height: 100px;
     }
 }
