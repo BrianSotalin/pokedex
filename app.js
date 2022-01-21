@@ -23,7 +23,7 @@ const typeColors = {
     ground: '#D2B074',
     dragon: '#DA627D',
     steel: '#1D8A99',
-    fighting: '#2F2F2F',
+    fighting: '#6F6F6F',
     default: '#2A1A1F',
 };
 
