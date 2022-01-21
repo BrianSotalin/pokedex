@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(126, 228, 228);
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    font-family: 'Finger Paint', cursive;
+    font-size: 45px;
+    margin-top: 5px;
+    color: whitesmoke;
+}
+form{
+    margin-top: 10px;
+}
+input{
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px dashed gray;
+}
+form .buscar{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: rgb(51, 50, 50);
+    border-radius: 50px;
+    padding: 10px;
+    justify-content: center;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 3.s ease all;
+}
+form .buscar:hover{
+    height: 45px;
+    width: 45px;
+    color: rgb(126, 228, 228);
+}
+
+.poke-card{
+    background: rgb(51, 50, 50);
+    border: 3px dashed whitesmoke;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.poke-name{
+    font-size: 25px;
+}
+.poke-name i{
+    display: none;
+}
+.poke-id{
+    font-size: 20px;
+}
+.poke-types div{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px dashed whitesmoke;
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+}
+
+.poke-img{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px dashed whitesmoke;
+}
+.btn-reload{
+    background: crimson;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(51, 50, 50);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.btn-reload:hover{
+    background: rgb(51, 50, 50);
+    color: crimson;
+}
+@media screen and (max-width:800px) {
+    input{
+        width: 60%;
+    }
+    .poke-card{
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px) {
+    .poke-card{
+        width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    input{
+        width: 90%;
+    }
+    .buscar{
+        margin-top: 5px;
+    }
+}

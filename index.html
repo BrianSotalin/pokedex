@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOTADEX</title>
+    <!-- GOOGLE FONTS  -->
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Neonderthaw&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+      <!-- FONTAWESOME -->
+      <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>pokedex</h3>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" placeholder="Busca un pokemon">
+        <button class="buscar"><i class="fas fa-search" id="icono"></i></button>
+    </form>
+    <div id="poke-card" class="poke-card">
+        <h1 id="poke-name" class="poke-name">Pokemon <i class="fas fa-frown"></i></h1>
+        <div id="img-container" class="img-container">
+            <img id="poke-img" class="poke-img" src="./img/poke-shadow.png" alt="">
+        </div>
+        <h1 id="poke-id" class="poke-id"></h1>
+        <h1 id="poke-types" class="poke-types"></h1>
+        <p id="poke-stats" class="poke-stats"></p>
+        <button onclick="location.reload()" id="btn" class="btn-reload">Reinicar busqueda</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
