@@ -1,24 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: rgb(126, 228, 228);
+    /* background: radial-gradient( rgb(126,228,228) 33% , rgb(51,50,50) 33%); */
     justify-content: center;
     text-align: center;
 }
-h3{
+
+h3 {
     text-transform: uppercase;
     font-family: 'Finger Paint', cursive;
     font-size: 45px;
     margin-top: 3px;
     color: whitesmoke;
 }
-form{
+
+form {
     margin-top: 5px;
 }
-input{
+
+input {
     width: 45%;
     text-align: center;
     font-size: 18px;
@@ -26,7 +31,8 @@ input{
     border: 1px dashed gray;
     padding: 3px;
 }
-form .buscar{
+
+form .buscar {
     height: 40px;
     width: 40px;
     border: none;
@@ -38,13 +44,14 @@ form .buscar{
     cursor: pointer;
     transition: 3.s ease all;
 }
-form .buscar:hover{
+
+form .buscar:hover {
     height: 45px;
     width: 45px;
     color: rgb(126, 228, 228);
 }
 
-.poke-card{
+.poke-card {
     background: rgb(51, 50, 50);
     border: 3px dashed whitesmoke;
     border-radius: 10px;
@@ -54,16 +61,20 @@ form .buscar:hover{
     text-transform: uppercase;
     color: whitesmoke;
 }
-.poke-name{
+
+.poke-name {
     font-size: 25px;
 }
-.poke-name i{
+
+.poke-name i {
     display: none;
 }
-.poke-id{
+
+.poke-id {
     font-size: 20px;
 }
-.poke-types div{
+
+.poke-types div {
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
@@ -71,22 +82,25 @@ form .buscar:hover{
     font-size: 20px;
     color: rgb(51, 50, 50);
 }
+
 .poke-stats {
     margin-top: 10px;
 }
-.poke-stats div{
+
+.poke-stats div {
     margin-top: 2px;
 }
 
-.poke-img{
+.poke-img {
     width: 130px;
     height: 130px;
     margin: 10px;
     border-radius: 50%;
     border: 2px dashed whitesmoke;
-    
+
 }
-.btn-reload{
+
+.btn-reload {
     margin-top: 5px;
     background: crimson;
     justify-content: center;
@@ -99,39 +113,97 @@ form .buscar:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
-.btn-reload:hover{
+
+.btn-reload:hover {
     background: rgb(51, 50, 50);
     color: crimson;
 }
+
+/* 
+FOOTER
+*/
+footer {
+    margin-top: 40px;
+    justify-content: center;
+
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+footer .social {
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer .github,
+footer .instagram {
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    transition: .3s ease all;
+
+}
+
+footer  .gitbub:hover {
+    color: lightslategray;
+}
+footer .instagram:hover{
+    color: palevioletred;
+}
+
 @media screen and (max-width:800px) {
-    input{
+    input {
         width: 60%;
     }
-    .poke-card{
+
+    .poke-card {
         width: 70%;
     }
 }
+
 @media screen and (max-width:500px) {
-    .poke-card{
+    .poke-card {
         width: 90%;
     }
 }
+
 @media screen and (max-width:400px) {
-    input{
+    input {
         width: 90%;
     }
-    .buscar{
+
+    .buscar {
         margin-top: 5px;
     }
-    .poke-types div{
+
+    .poke-types div {
         font-size: 15px;
     }
-    .poke-stats div{
+
+    .poke-stats div {
         font-size: 12px;
-    
+
     }
-    .poke-img{
+
+    .poke-img {
         width: 100px;
         height: 100px;
+    }
+    .footer{
+        margin-top: 25px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer .social{
+        padding: 1px;
+    }
+    .footer a{
+        font-size: 20px;
     }
 }
