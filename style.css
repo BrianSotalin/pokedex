@@ -125,36 +125,23 @@ FOOTER
 footer {
     margin-top: 40px;
     justify-content: center;
-
-}
-
-footer p {
-    font-size: 15px;
-    font-weight: bold;
-    color: darkslategrey;
-}
-
-footer .social {
-    justify-self: center;
-    align-items: center;
-    padding: 10px;
-}
-
-footer .github,
-footer .instagram {
-    color: black;
-    font-size: 30px;
-    padding: 10px;
+    color: rgb(51, 50, 50);
     transition: .3s ease all;
-
+    font-style: oblique;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Finger Paint', cursive;
+    text-transform: uppercase;
+}
+footer:hover{
+    letter-spacing: 2px;
+}
+footer a{
+    color: darkcyan;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-footer  .gitbub:hover {
-    color: lightslategray;
-}
-footer .instagram:hover{
-    color: palevioletred;
-}
 
 @media screen and (max-width:800px) {
     input {
@@ -195,15 +182,7 @@ footer .instagram:hover{
         height: 100px;
     }
     .footer{
-        margin-top: 25px;
+        margin-top: 20px;
     }
-    .footer p{
-        font-size: 12px;
-    }
-    .footer .social{
-        padding: 1px;
-    }
-    .footer a{
-        font-size: 20px;
-    }
+   
 }
